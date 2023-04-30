@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: black;
+  background-color: #dddddd;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.height-img {
+  height: fit-content;
+}
+
+.main-container {
+  margin: 30px 50px;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.card {
+  height: 100%;
+  border-bottom-right-radius: 10px;
+}
+
+.card .pill {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1.5px;
+  width: fit-content;
+  border-radius: 10px;
+  border-color: #377d22;
+  font-size: 9px;
+  padding: 4px 6px;
+  margin-bottom: 15px;
+}
+
+.card-body p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.beige-bg {
+  background-color: #fdf0cc;
+}
+.grey-bg {
+  background-color: #f8f8f8;
+}
+
+.card-flag {
+  display: flex;
+  justify-content: center;
+  height: 3px;
+  width: 100%;
+}
+.flag-pos {
+  width: 33.3333333%;
+}
+.white-flag {
+  background-color: #fff;
+}
+.red-flag {
+  background-color: #eb3323;
+}
+.blue-flag {
+  background-color: #0024f5;
+}
+.green-flag {
+  background-color: #377d22;
+}
+.black-flag {
+  background-color: #000;
+}
+
+.card-body {
+  margin: 10px;
+  padding: 10px;
+}
+
+.left-section {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-section {
+  flex: 70%;
+}
+
+.img-body-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  height: 100%;
+  /* align-items: stretch; */
+}
+
+.img-container {
+  flex: 30%;
+  margin-right: 10px;
+  filter: grayscale(100%);
+}
+
+.card-desc {
+  flex: 70%;
+}
